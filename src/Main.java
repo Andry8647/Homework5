@@ -49,6 +49,7 @@ public class Main {
         System.out.println("Задача 9");
         int contribution2 = 29000;
         int all2 = 0;
+
         for (int i = 1; i <= 12; i++){
             all2 = all2 + contribution2 / 100;
             all2 = all2 + contribution2;
