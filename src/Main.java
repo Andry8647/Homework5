@@ -55,5 +55,30 @@ public class Main {
             all2 = all2 + contribution2;
             System.out.println("Месяц " + i + " сумма накоплений равна " + all2 + " рублей ");
         }
+        System.out.println("Задача 1 Часть 2");
+        int i = 0;
+        int score = 0;
+        int deffered = 1500;
+        while (score <= 2_459_000){
+            score = score + deffered/100;
+            score = score + deffered;
+            i++;
+            System.out.println("Месяц "+ i + " , сумма накоплений равна " + score + " рублей");
+        }
+        System.out.println("Задача 2 Часть 2");
+        int a = 0;
+        while (a < 10){
+            a++;
+            System.out.print(a + " ");
+        }
+        System.out.println("");
+        for (int s = 10;s > 0;s--){
+            System.out.print(s + " ");
+        }
+        System.out.println("Задача 3 Часть 2");
+
+
+
+
     }
 }
